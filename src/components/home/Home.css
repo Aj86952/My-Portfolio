@@ -1,0 +1,73 @@
+body {
+  background-color: plum;
+}
+.home-main {
+  /* margin-left: 50px;
+  margin-top: 150px; */
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../image/coding.jpg);
+  /* background-position: center; */
+  background-size: cover;
+  background-attachment: local;
+  background-origin: border-box;
+  /* z-index: -1; */
+  /* object-fit: cover; */
+}
+.home-div {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+}
+.my-img {
+  margin: 20px;
+  position: absolute;
+  right: 5%;
+  border-style: double;
+  border-width: 8px;
+  border-color: red;
+}
+.hello {
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes change {
+  0% {
+    color: aqua;
+  }
+  20% {
+    color: rgb(68, 139, 20);
+  }
+  40% {
+    color: rgb(179, 101, 12);
+  }
+  60% {
+    color: palevioletred;
+  }
+  80% {
+    color: rgb(182, 199, 34);
+  }
+  100% {
+    color: palegreen;
+  }
+}
+.my-name {
+  color: red;
+  transition-property: all;
+  transition-duration: 0.1s;
+  font-weight: 900;
+  font-size: 40px;
+}
+.my-name:hover {
+  cursor: pointer;
+  color: lightseagreen;
+  text-decoration: underline;
+  font-style: italic;
+  transform: translate(1px, 1px);
+  font-size: 45px;
+}
+.web-developer {
+  color: yellowgreen;
+  text-shadow: 5px 5px 4px green;
+}

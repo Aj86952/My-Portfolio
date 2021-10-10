@@ -1,0 +1,26 @@
+.skill-main {
+  max-width: 80%;
+}
+.web {
+  list-style: circle;
+  margin-left: 150px;
+  font-style: oblique;
+}
+.tech {
+  list-style: circle;
+  margin-left: 150px;
+  font-style: oblique;
+}
+.known {
+  list-style: circle;
+  margin-left: 150px;
+  font-style: oblique;
+}
+.logo {
+  color: navy;
+}
+/* .logo::before {
+  content: url(../image/logo.png);
+  max-height: 1vh;
+  min-width: 1px;
+} */

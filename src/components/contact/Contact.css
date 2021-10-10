@@ -1,0 +1,40 @@
+.contact-main {
+  margin-left: 50px;
+  margin-top: 100px;
+  max-width: 80%;
+}
+
+.contact-head {
+  border-bottom: 4px dotted red;
+  color: navy;
+  position: absolute;
+  top: 15%;
+}
+
+.contact-div {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.mail {
+  text-decoration: none;
+  margin-left: 10px;
+}
+.github {
+  text-decoration: none;
+  margin-left: 10px;
+}
+.address {
+  margin-right: 10px;
+}
+
+/* @media (max-width: 640px) and (min-width: 320px) {
+  .contact {
+    position: absolute;
+    top: 30%;
+  }
+  .contact-div {
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+} */
