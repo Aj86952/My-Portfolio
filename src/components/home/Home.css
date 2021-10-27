@@ -2,8 +2,6 @@ body {
   background-color: plum;
 }
 .home-main {
-  /* margin-left: 50px;
-  margin-top: 150px; */
   height: 100vh;
   width: 100vw;
   background-image: url(../image/coding.jpg);
@@ -11,8 +9,6 @@ body {
   background-size: cover;
   background-attachment: local;
   background-origin: border-box;
-  /* z-index: -1; */
-  /* object-fit: cover; */
 }
 .home-div {
   position: absolute;

@@ -19,8 +19,3 @@
 .logo {
   color: navy;
 }
-/* .logo::before {
-  content: url(../image/logo.png);
-  max-height: 1vh;
-  min-width: 1px;
-} */

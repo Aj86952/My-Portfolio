@@ -1,6 +1,5 @@
 .about-main {
   margin-top: 70px;
-  max-width: 80%;
   font-style: oblique;
   text-align: justify;
 }
@@ -15,7 +14,7 @@
 .about-para {
   text-indent: 10vw;
   line-height: 30px;
-  /* margin-top: 150px; */
+  /* margin-top: 50px; */
 }
 
 @media (max-width: 640px) and (min-width: 320px) {
