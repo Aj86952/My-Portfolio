@@ -15,7 +15,7 @@ function Skills() {
         <h3 className="logo">Technologies :-</h3>
         <ul className="tech">
           <li>ReactJS</li>
-          <li>NoteJS</li>
+          <li>NodeJS</li>
           <li>ExpressJS</li>
           <li>MongoDB</li>
         </ul>

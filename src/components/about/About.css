@@ -13,8 +13,10 @@
 
 .about-para {
   text-indent: 10vw;
-  line-height: 30px;
+  line-height: 40px;
   /* margin-top: 50px; */
+  font-family: "Cookie", cursive;
+  font-size: 40px;
 }
 
 @media (max-width: 640px) and (min-width: 320px) {

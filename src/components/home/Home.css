@@ -1,5 +1,6 @@
 body {
-  background-color: plum;
+  /* background-color: plum; */
+  background: radial-gradient(circle, yellow, yellowgreen);
 }
 .home-main {
   height: 100vh;
@@ -27,6 +28,8 @@ body {
   animation-name: change;
   animation-duration: 6s;
   animation-iteration-count: infinite;
+  font-size: 40px;
+  font-family: "Frijole", cursive;
 }
 @keyframes change {
   0% {
@@ -52,13 +55,13 @@ body {
   color: red;
   transition-property: all;
   transition-duration: 0.1s;
-  font-weight: 900;
+  /* font-weight: 600; */
   font-size: 40px;
+  font-family: "Vast Shadow", cursive;
 }
 .my-name:hover {
   cursor: pointer;
   color: lightseagreen;
-  text-decoration: underline;
   font-style: italic;
   transform: translate(1px, 1px);
   font-size: 45px;
@@ -66,4 +69,5 @@ body {
 .web-developer {
   color: yellowgreen;
   text-shadow: 5px 5px 4px green;
+  font-size: 40px;
 }
